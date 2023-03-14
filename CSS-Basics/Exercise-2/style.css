@@ -1,0 +1,50 @@
+/*Selector {
+    Property: value;
+}*/
+
+.class {
+    background-color: lightpink; 
+    font: verdana, DejaVu Sans, sans-serif; 
+    font-size: 24px;
+
+}
+
+.class-cooler {
+    font-size: 36px;
+}
+
+#second {
+    Color: blue; 
+    font-size: 36px; 
+}
+
+#forth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+
+#DI Solution 
+
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.oddly-cool {
+  font-size: 24px;
+}
+
+#two {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+#four {
+  background-color: hsl(120, 100%, 75%);
+  font-size: 24px;
+  font-weight: bold;
+}
+*/
