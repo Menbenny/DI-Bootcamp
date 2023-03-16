@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(62, 145, 178);
+    background-color: rgb(124, 255, 246);
 }
 
-ul {
-    text-align: center;
-}
-
-li::first-letter {
-    font-size: 1.5em;
-}
+    ul {
+        text-align: center;
+    }
+        
+        li::first-letter {
+            font-size: 1.5em;
+        }
