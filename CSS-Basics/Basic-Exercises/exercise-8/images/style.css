@@ -1,4 +1,27 @@
+body {
+    margin: 0px;
+}
+
+/* Added from DI */
+
+/* h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    -moz-box-shadow:4px 4px 5px #888888;
+    -ms-box-shadow: 4px 4px 5px #888888;
+    -webkit-box-shadow: 4px 4px 5px #888888;
+    -o-box-shadow: 4px 4px 5px #888888;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+}
+*/
+
 .container {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,4 +31,10 @@ img {
     width: 250px;
     height: 200px;
     margin: 5px;
+    transition: all 0.6s;
 }
+
+img:hover {
+    transform: scale(1.1)
+}
+
