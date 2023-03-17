@@ -1,0 +1,40 @@
+.tittle {
+    display: flex;
+    padding: 50px;
+    margin-left: 150px;
+}
+
+.one {
+    display: flex;
+    margin-left: 300px;
+    margin-top: -80px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+    .icon-facebook {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+
+#more {
+    display: none;
+
+}
+
+button {
+    border: none;
+    transition-duration: 2.9;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(128, 128, 128);
+}
