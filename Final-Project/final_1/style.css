@@ -1,7 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(40, 26, 10, 0.499);
+}
+
+.navbar a {
+    font-size: 24px;
+    color: #333;
+    transition: color 1.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+
 .tittle {
     display: flex;
     padding: 50px;
     margin-left: 150px;
+}
+
+.tittle .j {
+    font-size: 2em;
 }
 
 .one {
@@ -10,31 +32,3 @@
     margin-top: -80px;
 }
 
-.social-icons {
-    display: flex;
-    flex-direction: row;
-}
-    .icon-facebook {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-    }
-
-
-#more {
-    display: none;
-
-}
-
-button {
-    border: none;
-    transition-duration: 2.9;
-}
-
-button:hover {
-    background-color: white;
-    color: rgb(128, 128, 128);
-}
