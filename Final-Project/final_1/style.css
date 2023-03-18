@@ -1,11 +1,12 @@
 .navbar {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(40, 26, 10, 0.499);
+
 }
 
-.navbar a {
+.navbar li {
     font-size: 24px;
     color: #333;
     transition: color 1.3s ease-in-out;
@@ -15,20 +16,70 @@
     color: #007bff;
 }
 
+.navbar .fa-facebook-f {
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+
+
+
+.logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.tittlefont {
+    font-size: 2em;
+}
 
 .tittle {
     display: flex;
     padding: 50px;
     margin-left: 150px;
+    cursor: pointer;
+    
 }
 
-.tittle .j {
-    font-size: 2em;
+.tittle:hover {
+    transition: color 1.2s ease-out;
+    color: #e4a9af;
+    cursor: pointer;
 }
+
 
 .one {
     display: flex;
-    margin-left: 300px;
+    margin-left: 500px;
     margin-top: -80px;
+    cursor: pointer;
+}
+
+.one:hover {
+    transition: color 1.2s ease-out;
+    color: #86b28e;
+    cursor: pointer;
+}
+
+.about #about_tittle {
+    transition: color 1.2s ease-out;
+    color:#01244b;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.444);
+    color:rgb(250, 239, 225); 
+    background-image: url('Background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+span {
+    font-size: 1.9em;
 }
 
