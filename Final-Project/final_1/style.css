@@ -1,30 +1,37 @@
-.navbar {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(40, 26, 10, 0.499);
+/**/
+  
 
-}
+/* side bar */
 
-.navbar li {
-    font-size: 24px;
-    color: #333;
-    transition: color 1.3s ease-in-out;
-}
 
-.navbar a:hover {
-    color: #007bff;
-}
-
-.navbar .fa-facebook-f {
+.sidebar {
     display: flex;
-    background-color: black;
-    color: antiquewhite;
-}
-
-
-
-
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar a i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
 
 .logo {
     display: flex;
@@ -33,7 +40,15 @@
 }
 
 .tittlefont {
-    font-size: 2em;
+    font-size: 3em;
+    transition: scale(1 2) 1.9s;
+    text-shadow: black;
+    
+}
+
+.tittlefont {
+    display: flex;
+    margin-top: -100px;
 }
 
 .tittle {
@@ -53,7 +68,7 @@
 
 .one {
     display: flex;
-    margin-left: 500px;
+    margin-left: 200px;
     margin-top: -80px;
     cursor: pointer;
 }
@@ -62,6 +77,14 @@
     transition: color 1.2s ease-out;
     color: #86b28e;
     cursor: pointer;
+}
+ 
+                                /*  MAIN  */
+.about {
+    display: flex;
+    border: 1px #86b28e;
+    padding: 40px;
+
 }
 
 .about #about_tittle {
@@ -74,7 +97,7 @@ body {
     color:rgb(250, 239, 225); 
     background-image: url('Background.jpeg');
     background-size: cover;
-    background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
