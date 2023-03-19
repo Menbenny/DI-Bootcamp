@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 li, a {
@@ -23,19 +22,19 @@ nav {
 
 
 
-
-
-
-
-
-
-/* body {
+body {
     background-image: url('thor.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+
+
+
+
+
+/*
 .navbar {
     display: flex;
     flex-direction: row;
