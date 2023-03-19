@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IBM+Plex+Mono:wght@100&family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px; 
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+/* body {
+    background-image: url('thor.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+} */
