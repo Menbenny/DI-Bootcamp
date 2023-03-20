@@ -1,29 +1,44 @@
-
+.thead {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0 auto;
+}
 
 #one {
   background-image: url('image1.png');
-  width: 100px;  
-  height: 150px;
+  width: 200px;  
+  height: 250px;
   background-repeat: none;
+  background-position: center;
+  background-size: cover;
 }
 
 #two {
     background-image: url('maleimage.png');
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     background-repeat: none;
+    background-position: center;
+    background-size: cover;
 }
 
 #three {
     background-image: url('maleimage3.png');
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     background-repeat: none;
+    background-position: center;
+    background-size: cover;
 }
 
 #four {
     background-image: url('femaleimage4.png');
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     background-repeat: none;
+    background-position: center;
+    background-size: cover;
 }
+
