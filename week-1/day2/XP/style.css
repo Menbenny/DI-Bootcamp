@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IBM+Plex+Mono:wght@100&family=Kanit&display=swap');
+nav {
+    /* font-family: 'Climate Crisis', cursive; */
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Kanit', sans-serif;
+}
 
 nav {
     background-color: black;
