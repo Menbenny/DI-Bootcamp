@@ -1,0 +1,29 @@
+
+
+#one {
+  background-image: url('image1.png');
+  width: 100px;  
+  height: 150px;
+  background-repeat: none;
+}
+
+#two {
+    background-image: url('maleimage.png');
+    width: 100px;
+    height: 150px;
+    background-repeat: none;
+}
+
+#three {
+    background-image: url('maleimage3.png');
+    width: 100px;
+    height: 150px;
+    background-repeat: none;
+}
+
+#four {
+    background-image: url('femaleimage4.png');
+    width: 100px;
+    height: 150px;
+    background-repeat: none;
+}
