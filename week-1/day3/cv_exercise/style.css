@@ -1,10 +1,16 @@
 .container {
+
+    /* Grid Declarations */
+
     display: grid;
     grid-template-rows: 100px 600px;
     grid-template-columns: 100px 300px;
     
+    
+    /* Properties */
+
     text-align: center;
-    border: 2px double khaki ;
+    border: 5px double rgba(58, 79, 60, 0.444) ;
     margin: 50px;
     padding: 20px 20px;
     
@@ -15,13 +21,18 @@
 
 
 #one {
-    /* Grid properties */
+    
+    /* Grid Declarations */
    
     grid-column-start: 1;
     grid-row-start: 1;
     grid-column-end: 1;
     grid-row-end: 1;
+    
+    /* Properties */
+    
     background-image: ;
+    border-radius: 50% 50%;
     background-color: rgb(20, 85, 63);
     color: white;
     /* align-items: center;
@@ -31,22 +42,27 @@
 }
 
 #two {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.601);
     color: white;
     grid-column-start: 2;
     grid-row-start: 2;
     grid-column-end: 3;
     grid-row-end: 3;
+    margin: 10px;
     /* align-items: center;
     padding: 10px;
     height: 300px; */
     
 }
 
-/* #three {
-    background-color: aquamarine;
+#three {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 4;
+    grid-row-end: 4;
+    /* background-color: aquamarine;
     color: white;
     align-items: center;
-    padding: 10px;
+    padding: 10px; */
     
-} */
+}
