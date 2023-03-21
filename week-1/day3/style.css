@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+    height: flex-end;
+    text-align: center;
+    margin: 100px;
+    padding: 20px 20px;
+   
+
+}
+
+#one {
+    background-color: aquamarine;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin: 0 300px;
+
+}
+
+#two {
+    background-color: aquamarine;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#three {
+    background-color: aquamarine;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin: 0 300px;
+}

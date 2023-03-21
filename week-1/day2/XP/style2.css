@@ -5,8 +5,8 @@ body {
 }
 
 .thead {
-    display: flex;
-    flex-direction: wrap;
+    display: block;
+    
     justify-content: space-between;
     padding: 5px;
     margin: 0 auto;
