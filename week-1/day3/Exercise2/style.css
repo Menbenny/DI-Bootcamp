@@ -19,9 +19,9 @@
 #two {
     background-color: aquamarine;
     color: white;
-    align-items: right;
+    align-self: flex-end;
     padding: 20px;
-    margin: 0 300px;
+    margin: 0 0px;
     
 }
 
