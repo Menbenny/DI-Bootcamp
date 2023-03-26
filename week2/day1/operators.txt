@@ -1,0 +1,2 @@
+user_in = input("Your input here!")
+print(user_input)
