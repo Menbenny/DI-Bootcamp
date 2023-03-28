@@ -9,7 +9,7 @@ while True:
     if topping == 'quit':
         break
         pass
-    
+
         print(f"You ordered a pizza with the following toppings: {', '.join(toppings)}")
         print(f"The total price is: ${total:.2f}")
 
