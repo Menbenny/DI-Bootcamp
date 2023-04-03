@@ -60,10 +60,53 @@ class Dog:
         return f'{self.weight/self.age*10}'
     
     def fight(self, other_dog):
-        self.score = self.run_speed * self.weight
-        other_dog.score = other_dog.run_speed * other_dog.weight 
+        self_score = self.run_speed() * self.weight
+        other_score = other_dog.run_speed() * other_dog.weight 
         
-        if 
+        if self.score > other_dog.score:
+            return f'{self.name} won the fight!'
+        else:
+            return f'{other_dog.name} won the fight!'
+        
+
     
         
 
+# #############################################################
+
+# EXERCISE 3 : DOGS DOMESTICATED
+
+# class Dog:
+
+from Exercises import Dog 
+
+PetDog = Dog()
+
+class PetDog:
+    def __init__(self, name, age, weight):
+        super().__init__(name, age, weight)    
+        self.trained = False
+
+    def train(self):
+        dog_bark = self.bark()
+        self.trained = True
+        print(dog_bark)
+
+    def play(self, *args):
+        dog_names = ', '.join([dog.name for dog in args])
+        print(f"{dog_names} all play together.")
+
+    def do_a_trick(self):
+        tricks = [
+            f"{self.name} does a barrel roll",
+            f"{self.name} stands on his back legs",
+            f"{self.name} shakes your hand",
+            f"{self.name} plays dead."
+        ]
+
+        if self.trained:
+            print(random.choice(tricks))
+        else:
+            print("The dog is not trained yet!")
+        
+    
