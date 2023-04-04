@@ -84,7 +84,7 @@ def holiday():
     print(f"Today's date is {now_datetime.date()}")
     print(f"The next upcoming holiday is {holiday_name} in {time_left_str}.")
 
- ########################################################
+########################################################
 
 #  EXERCISE 8: How Old Are You On Jupiter?
 
@@ -99,6 +99,45 @@ def calculate_age(age_seconds):
     uranus_year = 84.016846 * earth_year
     neptune_year = 164.79132 * earth_year 
 
-    age_earth_years =age_seconds / earth_year 
+    age_earth_years = age_seconds / earth_year 
     age_mercury_years = age_seconds / mercury_year 
     age_venus_years = age_seconds / venus_year 
+    age_mars_years = age_seconds / mars_year
+    age_jupiter_years = age_seconds /jupiter_year
+    age_saturn_years = age_seconds / saturn_year
+    age_uranus_years = age_seconds / uranus_year
+    age_neptune_years = age_seconds / neptune_year 
+
+    print(f"You are {age_earth_years:.2f} Earth-years old.")
+    print(f"You are {age_mercury_years:.2f} Mercury-years old.")
+    print(f"You are {age_venus_years:.2f} Venus-years old.")
+    print(f"You are {age_mars_years:.2f} Mars-years old.")
+    print(f"You are {age_jupiter_years:.2f} Jupiter-years old.")
+    print(f"You are {age_saturn_years:.2f} Saturn-years old.")
+    print(f"You are {age_uranus_years:.2f} Uranus-years old.")
+    print(f"You are {age_neptune_years:.2f} Neptune-years old.")
+
+#########################################################
+
+# EXERCISE 9: Faker Module 
+    
+from faker import Faker 
+
+fake = Faker()
+
+users = []
+
+def add_user():
+    name = fake.name()
+    address = fake.address()
+    language_code = fake.language_code()
+
+    new_user = {
+        "name" : name,
+        "address" : address,
+        "language_code" : language_code
+    }
+
+    users.append(new_user)
+
+    
