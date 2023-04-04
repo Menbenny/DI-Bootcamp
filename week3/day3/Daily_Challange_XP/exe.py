@@ -15,7 +15,7 @@ class Circle:
         self.radius = value / 2
 
     def are(self):
-        return math.pi * self radius ** 2
+        return math.pi * self.radius ** 2
 
     def __str__(self):
         return f"Circle with radius {self.radius:.2f}"
@@ -35,6 +35,9 @@ class Circle:
     def __gt__(self, other):
         return self.radius > other.radius
     
-        
+circles = [Circle(3), Circle(1), Circle(2)]        
+sorted_circles = sorted(circles)
+print(sorted_circles)
+
         
         
