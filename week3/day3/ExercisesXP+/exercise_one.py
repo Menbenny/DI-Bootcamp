@@ -120,7 +120,7 @@ def calculate_age(age_seconds):
 #########################################################
 
 # EXERCISE 9: Faker Module 
-    
+
 from faker import Faker 
 
 fake = Faker()

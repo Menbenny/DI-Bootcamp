@@ -4,18 +4,18 @@
 
 # EXERCISE 1 : Built-In Functions 
 
-# def Document():
-#     """
-#     The code prompts the user to enter an input. Input is
-#     then convereted to an integer through the int function,
-#     the absolute value of the integer is what is printed out.
-#     """
+def Document():
+    """
+    The code prompts the user to enter an input. Input is
+    then convereted to an integer through the int function,
+    the absolute value of the integer is what is printed out.
+    """
 
-# num_str = input("Enter a number: ")
+num_str = input("Enter a number: ")
 
-# num_int = int(num_str)
+num_int = int(num_str)
 
-# num_abs = abs(num_int)
+num_abs = abs(num_int)
 
 ######################################
 
