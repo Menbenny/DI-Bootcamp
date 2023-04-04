@@ -1,4 +1,4 @@
-import add_function 
+import func  
 
 ########################################################
 
@@ -8,6 +8,6 @@ def func100(num):
     num = 0 > 101
 
     def __int__(num):
-        while True:
+        while True: 
             print("Number accepted.")
             
