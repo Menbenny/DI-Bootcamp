@@ -35,3 +35,10 @@ print(x)
 
 # EXERCISE 5: Amount Of Time Left Until January 1st
 
+from datetime import dateime 
+
+def time_left():
+    now = datetime.now()
+    new_year = datetime(now.year +1, 1, 1)
+    time_left = new_year - now 
+    print(f'Time left intil New year: {time_left}')
