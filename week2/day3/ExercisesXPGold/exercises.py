@@ -26,21 +26,50 @@ birthdays = {
 
 
 
-print(birthdays.keys())
+# print(birthdays.keys())
 
-new_name = input("Enter a new name: ")
-new_birthday = input("Date of birth 'YYYY/MM/DD': ")
+# new_name = input("Enter a new name: ")
+# new_birthday = input("Date of birth 'YYYY/MM/DD': ")
 
-birthdays[new_name] = new_birthday
+# birthdays[new_name] = new_birthday
 
-i = input("Please enter a name: ")
+# i = input("Please enter a name: ")
 
-birthday = birthdays.get(i)
+# birthday = birthdays.get(i)
 
-if birthday:
+# if birthday:
     
-    print(f'The birthdate for {i} is: {birthday}')
+#     print(f'The birthdate for {i} is: {birthday}')
 
-else:
-    print(f'Sorry, there is no corresponding information for {i}')
+# else:
+#     print(f'Sorry, there is no corresponding information for {i}')
+
+# exe4
+
+items = {
+    "banana": {"price": 4 , "stock":10},
+    "apple": {"price": 2, "stock":5},
+    "orange": {"price": 1.5 , "stock":24},
+    "pear": {"price": 3 , "stock":1}
+}
+
+outter_key = items.keys()
+inner_key = outter_key.keys()
+
+my_items = int(['outter_key']['inner_key'])
+print(my_items)
+
+
+
+
+# keys = items.keys()
+# values = items(items.values())
+
+
+
+# price = values
+
+# def total():
+#     return sum(price)
+# print(price)
 
