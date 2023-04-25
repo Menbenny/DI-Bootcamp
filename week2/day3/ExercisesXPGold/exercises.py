@@ -26,7 +26,13 @@ birthdays = {
 
 
 
-# print("You can look up the birthdays of the people in the list!")
+print(birthdays.keys())
+
+new_name = input("Enter a new name: ")
+new_birthday = input("Date of birth 'YYYY/MM/DD': ")
+
+birthdays[new_name] = new_birthday
+
 i = input("Please enter a name: ")
 
 birthday = birthdays.get(i)
