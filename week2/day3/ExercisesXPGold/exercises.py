@@ -24,16 +24,17 @@ birthdays = {
     'Paul': '1990/09/27)'
 }
 
-keys = list(birthdays.keys())
-values = list(birthdays.values())
 
-print(keys)
 
 # print("You can look up the birthdays of the people in the list!")
-# i = input("Please enter a name: ")
+i = input("Please enter a name: ")
 
-# for keys in birthdays:
-#     if i == keys[]:
-#       
-#         print(i + '')
+birthday = birthdays.get(i)
+
+if birthday:
+    
+    print(f'The birthdate for {i} is: {birthday}')
+
+else:
+    print(f'Sorry, there is no corresponding information for {i}')
 
