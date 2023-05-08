@@ -62,24 +62,47 @@
 # Create a string of all the letters in the alphabet
 # Loop over each letter and print a message that contains the letter and whether its a vowel or a consonant.
 
-alphabet = ("abcdefghijklmnopqrstuvwxyz")
-vowels=0
-consonant=0
+# alphabet = ("abcdefghijklmnopqrstuvwxyz")
+# vowels=0
+# consonant=0
 
 
 
-for letter in alphabet:
-    if letter in 'aeiou':
-        print(f"letter {letter} is a vowel")
-    else:
-        print(f"letter {letter} is a consonant")
-          
-
+# for letter in alphabet:
+#     if letter in 'aeiou':
+#         print(f"letter {letter} is a vowel")
+#     else:
+#         print(f"letter {letter} is a consonant")
 
 
 
 
+# exercise 6
 
+words = input("Enter seven words: ")
+letter = input("Enter a single character: ")
+
+for word in words:
+    if letter in word:
+        index = word.index(letter)
+        print(f"{index}")
+        letter_index = words.index(letter)
+
+
+# Exercise 7
+
+# numbers = range(1, 1000001)
+# print(min(numbers))
+# print(max(numbers))
+# print(sum(numbers))
+
+# Exercise 8
+
+# list = [input("Enter a sequence of numbers: ")]
+# # list = list.split()
+# list_tuple = tuple(list)
+# print(list)
+# print(list_tuple)
 
 
 
