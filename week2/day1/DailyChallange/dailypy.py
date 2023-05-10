@@ -6,6 +6,8 @@ elif len (i) > 10:
 
 # char - termporary variable 
 
+print(i[0 & -1])
+
 # addition assigment - operator
 
 cb = ''

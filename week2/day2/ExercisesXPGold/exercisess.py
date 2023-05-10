@@ -79,14 +79,16 @@
 
 # exercise 6
 
-words = input("Enter seven words: ")
-letter = input("Enter a single character: ")
+# code doesn't work properly
 
-for word in words:
-    if letter in word:
-        index = word.index(letter)
-        print(f"{index}")
-        letter_index = words.index(letter)
+# words = [input("Enter seven words: ")] # HAD TO CONVERT TO A LIST FOR INDEX to be fully functional
+# letter = input("Enter a single character: ")
+
+# for word in words:
+#     if letter in word:
+#         index = word.index(letter)
+#         print(f"{index}")
+#         letter_index = word.index(letter)
 
 
 # Exercise 7
@@ -103,6 +105,35 @@ for word in words:
 # list_tuple = tuple(list)
 # print(list)
 # print(list_tuple)
+
+# Exercise 9 
+import random 
+
+user_input = input('Enter a any number between the numbers 1 to 9: ')
+
+random_numbers = random.randint(1, 9)
+
+for num in user_input:
+    if num == random_numbers:
+        print("Winner!")
+    elif num == "quit":
+        break   
+        
+
+ 
+
+# while user_input == random_numbers:
+#     print("Good guess!")
+# if user_input != 'quit':
+#     print("Enter a number between 1 and 9 or the word 'quit' to quit.") 
+
+
+
+# print(random_numbers)
+
+# random_input = random.choice(user_input)
+
+
 
 
 
