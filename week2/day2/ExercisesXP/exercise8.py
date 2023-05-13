@@ -1,4 +1,4 @@
-toppings = []
+toppings = []                     
 
 topping_price = "tp"
 tp = 2.5
@@ -22,6 +22,6 @@ total = 10 + len(topping) * tp
 # print("You ordered a pizza with the following toppings:")
 # print(", ".join(toppings))
 
-print(f"You ordered a pizza with the following toppings: {', '.join(toppings)}")
+print(f"You ordered a pizza with the following toppings: {', '.join(toppings)}") # .join converts list into string 
 print(f"The total price is: ${total:.2f}")
 

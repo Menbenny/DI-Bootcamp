@@ -35,5 +35,19 @@ for j in range(len(matrix[0])):
     for char in column:
         if char.isalpha():
             alpha_chars += char
-    message += alpha_chars + ' '
+    message += alpha_chars 
+
+# def space(message):
+#     for char in message:
+#         for letter in char:
+#             if char == 's':
+#                 return " "
+
+# new_message = space(message)
 print(message)
+
+
+            
+        
+             
+

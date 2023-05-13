@@ -17,3 +17,16 @@ make_great(magician_names)
 
 print("\nModified list:")
 show_magicians(magician_names)
+
+# magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel'] 
+
+# def show_magicians():
+#     for name in magician_names:
+#         print(name)
+    
+# show_magicians()
+
+# def make_great()    :
+#     new_name = show_magicians()
+    
+

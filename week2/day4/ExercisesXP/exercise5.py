@@ -1,12 +1,16 @@
-def make_shirt(size='', text='I Love Python'):
-    print(f" The size of this shirt is , {size}  and the text is  {text}")
 
-make_shirt(size='large')
+def make_shirt(size='Large', text='I Love Python'):
+    shirt = print(f"The size of this shirt is {size}, and the text is {text}")
+    # if size == 'Medium':
+    #     text= 'I Love Python'
+    # else:
+    #     text="I Love JavaScript"
+    return shirt 
+make_shirt("extra-small", "I Love JavaScript")
 
-# medium shirt
-make_shirt(size='medium')
 
-# any size
-make_shirt(size='small', text='Let The Python Swallow You')
+    
+
+
 
 
