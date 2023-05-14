@@ -72,10 +72,10 @@ board = [' ' for _ in range(9)]
 current_player = 'X'
 
 def display_board():
-    print('-'*10)
+    print('-'*13)
     for i in range(3):
         print(f'| {board[i*3]} | {board[i*3+1]} | {board[i*3+2]} |')
-        print('-'*10)
+        print('-'*13)
 
 
 def player_input(player):
@@ -94,8 +94,32 @@ def check_win():
         [0, 4, 8], [2, 4, 6]  
     ]
     for combination in winning_combinations:
+        if board[combination[0]] == board[combination[1]] == board[combination[2]] != ' ':
+            return board[combination[0]]
+        return None
+    
+def play():
+    global current_player
 
+    while True:
+        display_board()
+        position = player_input(current_player)
+        board[position] = current_player
 
+        winner = check_win()
+        if winner:
+            display_board()
+            print(f"Player {winner} wins!")
+            break
+        
+        if ' ' not in board:
+            display_board()
+            print("It's a tie!")
+            break
+
+        current_player = '0' if current_player == 'X' else 'X'
+
+play()
 
 
 
