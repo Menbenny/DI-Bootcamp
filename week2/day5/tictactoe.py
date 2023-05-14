@@ -55,62 +55,64 @@
 
 
 
-game_board = [
-    ['', '', ''],
-    ['', '', ''],
-    ['', '', '']
-]
-
-for row in game_board:
-    print(row[0] + "  | " + row[1] + " | ")
-    print(row[0] + "*"*8)
-
-
-
-
-    
-
-    
-
-# for col in game_board:
-#     print(" | ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from random import random 
-# from time import time 
-
-
 # game_board = [
 #     ['', '', ''],
 #     ['', '', ''],
 #     ['', '', '']
 # ]
 
-# print(game_board)
+# for row in game_board:
+#     print(row[0] + "  | " + row[1] + " | ")
+#     print(row[0] + "*"*8)
 
-# def display_board():
+# for col in game_board:
+#     print(" | ")
+
+board = [' ' for _ in range(9)]
+current_player = 'X'
+
+def display_board():
+    print('-'*10)
+    for i in range(3):
+        print(f'| {board[i*3]} | {board[i*3+1]} | {board[i*3+2]} |')
+        print('-'*10)
+
+
+def player_input(player):
+    while True:
+        position = input(f"player {player}, choose a position (1-9): ")
+        if position.isdigit():
+            position = int(position)
+            if 1 <= position <= 9 and board[position-1] == ' ':
+                return position - 1
+            print("invalid posiion. Try again.")
+
+def check_win():
+    winning_combinations = [
+        [0, 1, 2], [3, 4, 5], [6, 7, 8],
+        [0, 3, 6], [1, 4, 7], [2, 5, 8],  
+        [0, 4, 8], [2, 4, 6]  
+    ]
+    for combination in winning_combinations:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
