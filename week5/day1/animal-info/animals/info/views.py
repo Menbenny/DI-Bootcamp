@@ -1,34 +1,11 @@
 from django.shortcuts import render
+from .models import Family, Animal
 
-# Create your views here.
+def family_detail(request, family_id):
+    family = get_object_or_404(Family, id=family_id)
+    animals = family.animal_set.all()
+    return render(request, 'family_detail.html', {'family': family, 'animals': animals})
 
-class Animal(object):
-    def __init__(self, id, legs, weight):
-        self.id = id
-        self.legs = legs
-        self.weight = weight
-        def __str__(self):
-            return "Animal #%s, %s legs, %s kg" % (self.id, self.legs, self.weight)
-        
-class Animal(object):
-    def __init__(self, id, height, speed, family):
-        self.id = id
-        self.height = height
-        self.speed = speed
-        self.family = family
-        def __str__(self):
-            return "Animal #%s, %s cm, %s m/s, family %s" % (self.id, self.height, self.speed, self.family)
-        
-class Family(object):
-    def __init__(self, id, name):
-        self.id = id
-        self.name = name
-        def __str__(self):
-            return "Family %s, %s" % (self.id, self.name)
-        
-
-
-
-
-
-
+def animal_detail(request, animal_id):
+    animal = get_object_or_404(Animal, id=animal_id)
+    return render(request, 'animal_detail.html', {'animal': animal})
