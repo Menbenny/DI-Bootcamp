@@ -30,6 +30,21 @@ def add_gif_view(request):
 
 # Add new Category view 
 
+def add_category_view(request):
+
+    if request.method == 'POST':
+        print("POST data: ", request.POST)
+        print('POSTING data')
+        category_filled_form = CategoryForm(request.POST)
+
+        if category_filled_form.is_valid():
+            category_filled_form.save() 
+            
+            return HttpResponse("SUCCESSFULLY SAVED")
+        
+    if request.method == 'GET':
+        category_form = CategoryForm()
+        
 
 
 
@@ -42,11 +57,7 @@ def add_gif_view(request):
 
 
 
-
-
-
-
-
+   
 
 
 
