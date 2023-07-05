@@ -1,0 +1,167 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 90%;
+    margin-left: 10px;
+  }
+  div,footer {
+    display: inline-block;
+    height: 100px;
+   
+  }
+  .container {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .left-pane, .right-pane, footer {
+    border: 3px solid black;
+  }
+  .left-pane {
+    width: 35%;
+    background: red;
+    margin-right: 3%;
+  }
+  .right-pane {
+    width: 60%;
+    background: lightblue;
+  }
+  footer {
+    width: 98.5%;
+    background: yellow;
+  }
+     */
+/* 
+}
+
+.red, .blue, .yellow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.red {
+    background-color: red ;
+    width: 20%;
+    height: 150px;
+    margin: 30px;
+}
+
+.blue {
+    background-color: blue;
+    width: 70%;
+    height: 150px;
+    margin: 30px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 98%;
+    height: 150px;
+} */
+/* ############################################# */
+
+/* EXERCISE 2 */
+/* 
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.pane {
+    height: 400px;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: solid black;
+}
+
+.purple {
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+}
+
+.left {
+    background-color: red;
+}
+
+.center {
+    background-color: green;
+}
+
+.right {
+    background-color: orange;
+}  */
+
+/* ################################################################
+
+/* EXERCISE 3 */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 98%;
+    margin: 20px;
+    
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    width: 99%;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+section {
+    display: flex;
+    
+
+}
+
+.col-left, .col-mid, .col-right {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 350px;
+    /* margin: 10px; */
+}
+
+img {
+    padding: 10px;
+    width: 100%;
+    /* height: 75%; */
+}
+
+.col-left {
+    background-color: antiquewhite;
+
+}
+
+.col-mid {
+    background-color: burlywood;
+
+}
+
+.col-right {
+    background-color: cyan;
+}

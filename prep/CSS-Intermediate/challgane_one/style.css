@@ -1,0 +1,23 @@
+body {
+    
+    background-color: rgb(16, 78, 78);
+}
+
+#wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* margin-left:  20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+} 
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
