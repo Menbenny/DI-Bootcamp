@@ -1,0 +1,8 @@
+FlexBox>
+
+Parent displayed flex: influences children
+
+Justify-content = positions content on the main axis 
+align-items = positions content on the cross axis 
+
+flex-direction is row by default ---- 
